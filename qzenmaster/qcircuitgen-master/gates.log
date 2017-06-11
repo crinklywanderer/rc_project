@@ -1,0 +1,73 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.4.30)  29 MAY 2017 18:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**gates.tex
+(./gates.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+\gatebox=\box26
+\zgate=\box27
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+! Undefined control sequence.
+<recently read> \op 
+                    
+l.11 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\xgate=\box28
+! Undefined control sequence.
+<recently read> \op 
+                    
+l.17 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\hgate=\box29
+! Undefined control sequence.
+<recently read> \op 
+                    
+l.23 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\gatesep=\box30
+\identitygate=\box31
+\touchlineup=\box32
+\touchlineupgate=\box33
+\controldot=\box34
+\xorsymbol=\box35
+\xorsymbolfixer=\box36
+\swapsymbol=\box37
+)
+! Emergency stop.
+<*> gates.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 495028
+ 265 string characters out of 6181497
+ 47944 words of memory out of 5000000
+ 3330 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 24i,10n,25p,67b,107s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

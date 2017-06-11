@@ -1,0 +1,70 @@
+\setlength{\unitlength}{.2in}
+\newsavebox{\gatebox}
+\savebox{\gatebox}(1.5, 1.5)[bl]{
+    \put(0.75,0){\makebox(0,0){\framebox(1.5,1.5){}}}
+}
+
+\newsavebox{\zgate}
+\savebox{\zgate}(1.5, 1.5)[bl]{
+    \put(0, 0){\usebox{\gatebox}}
+    \put(0.75, 0){\makebox(0, 0){$\op{Z}$}}
+}
+
+\newsavebox{\xgate}
+\savebox{\xgate}(1.5, 1.5)[bl]{
+    \put(0, 0){\usebox{\gatebox}}
+    \put(0.75, 0){\makebox(0, 0){$\op{X}$}}
+}
+
+\newsavebox{\hgate}
+\savebox{\hgate}(1.5, 1.5)[bl]{
+    \put(0, 0){\usebox{\gatebox}}
+    \put(0.75, 0){\makebox(0, 0){$\op{H}$}}
+}
+
+\newsavebox{\gatesep}
+\savebox{\gatesep}(3, 0)[bl]{
+    \put(0, 0){\line(1, 0){1.5}}
+}
+
+\newsavebox{\identitygate}
+\savebox{\identitygate}(3, 0)[bl]{
+    \put(0, 0){\line(1, 0){1.5}}
+}
+
+\newsavebox{\touchlineup}
+\savebox{\touchlineup}(1.5, 3.5)[bl]{
+    % Vertical line
+    \put(0.75, 0){\line(0, 1){2.25}}
+}
+
+\newsavebox{\touchlineupgate}
+\savebox{\touchlineupgate}(1.5, 3.5)[bl]{
+    % Vertical line
+    \put(0.75, 0){\line(0, 1){1.5}}
+}
+
+\newsavebox{\controldot}
+\savebox{\controldot}(1.5, 1.5)[bl]{
+    \put(0, 0){\usebox{\identitygate}}
+    \put(0.75, 0){\circle*{.4}}
+}
+
+\newsavebox{\xorsymbol}
+\savebox{\xorsymbol}(1.5, 1.5)[bl]{
+    \put(0, 0){\usebox{\identitygate}}
+    \put(0.75, 0){\circle{.7}}
+    \put(0.75, 0){\line(0, 1){0.35}}
+}
+
+\newsavebox{\xorsymbolfixer}
+\savebox{\xorsymbolfixer}(1.5, 0.7)[tl]{
+    \put(0.75, -0.70){\line(0, -1){0.35}}
+}
+
+\newsavebox{\swapsymbol}
+\savebox{\swapsymbol}(1.5, 1.5)[bl]{
+    % Cheat and use \times instead of drawing a thick X
+    \put(0.75, 0){\makebox(0, 0){$\times$}}
+    \put(0, 0){\usebox{\identitygate}}
+}

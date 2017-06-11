@@ -1,0 +1,26 @@
+from graphics import *
+
+
+win = GraphWin("Reversible Circuit", 5000, 5000)
+
+a = Line(Point(100, 100), Point(1080, 100))
+b = Line(Point(100, 130), Point(1080, 130))
+c = Line(Point(100, 160), Point(1080, 160))
+d = Line(Point(100, 190), Point(1080, 190))
+cline = Line(Point(150, 100), Point(150, 140))
+acircle = Circle(Point(150, 100), 5)
+bcircle = Circle(Point(150, 130), 10)
+a1 = Rectangle(Point(2.00, 2.50), Point(35,15))
+a1.setFill('red')
+acircle.setFill('black')
+a.draw(win)
+b.draw(win)
+c.draw(win)
+d.draw(win)
+a1.draw(win)
+cline.draw(win)
+acircle.draw(win)
+bcircle.draw(win)
+win.setBackground("cyan")
+win.getMouse()
+win.close()

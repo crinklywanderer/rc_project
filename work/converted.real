@@ -1,0 +1,19 @@
+.version 1.0
+.numvars 4
+.variables a b c d 
+.inputs a b c d 
+.outputs a b c d 
+.begin
+
+# LEVEL UNDER CONVERSION- 0, START
+v d1
+v d1 a
+t2 a c
+v+ d1 a
+v+ d1
+# END
+t2 c b
+t2 b c
+t2 a c
+t2 c b
+.end
