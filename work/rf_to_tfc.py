@@ -46,3 +46,4 @@ with open('1.real', 'r+') as file:
 temp2 = open('intermediate.tfc', 'a')
 temp2.write('END')
 temp2.close()
+print(temp2)
