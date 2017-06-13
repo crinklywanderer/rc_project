@@ -4,7 +4,7 @@ import re
 # GLOBAL VARIABLES AND FILES
 temp_var = open('converted.real', 'w')
 temp_var.close()
-cora = open('/home/aayush/Desktop/Mini-project/work/file_handler/quasm/qasm2circ-v1.4/converted_image.real', 'w')
+cora = open('/home/aayush/Desktop/RC Project/file_handler-master/quasm/qasm2circ-v1.4/converted_image.real', 'w')
 cora.close()
 state_list = []
 state_list_temp = []
@@ -18,7 +18,7 @@ def t_general(temp_gate, venus, iter_counter):
     alpha_centuri_temp = re.split('\n', str(alpha_centuri[-1]))
     alpha_centuri[-1] = alpha_centuri_temp[0]
     with open('converted.real', 'a') as lake:
-        tora = open('/home/aayush/Desktop/Mini-project/work/file_handler/quasm/qasm2circ-v1.4/converted_image.real', 'a')
+        tora = open('/home/aayush/Desktop/RC Project/file_handler-master/quasm/qasm2circ-v1.4/converted_image.real', 'a')
         lake.write('\n' + '# LEVEL UNDER CONVERSION- ' + str(iter_counter) + ', START' + '\n')
 
         # STAGE - 1
@@ -101,7 +101,7 @@ with open('converted.real', 'a') as cosmos:
         if "'" in myu:
             myu_1 = re.split("'", myu)
             list_1[io] = myu_1[-1]
-    grape = open('/home/aayush/Desktop/Mini-project/work/file_handler/quasm/qasm2circ-v1.4/converted_image.real', 'a')
+    grape = open('/home/aayush/Desktop/RC Project/file_handler-master/quasm/qasm2circ-v1.4/converted_image.real', 'a')
     cosmos.write('.version 1.0' + '\n')
     grape.write('.version 1.0' + '\n')
     cosmos.write('.numvars ' + str(len(list_1)) + '\n')
@@ -143,7 +143,7 @@ for ii in range(len(state_list)):
     captain_beta = captain_aplha.group(1)
     captain_gamma = int(captain_aplha.group(2))
     cosmos_1 = open('converted.real', 'a')
-    cosmos_2 = open('/home/aayush/Desktop/Mini-project/work/file_handler/quasm/qasm2circ-v1.4/converted_image.real', 'a')
+    cosmos_2 = open('/home/aayush/Desktop/RC Project/file_handler-master/quasm/qasm2circ-v1.4/converted_image.real', 'a')
     if captain_beta is 't' or 'T':
         if captain_gamma is 1:
             cosmos_1.write(str(state_list[ii]))
@@ -175,7 +175,7 @@ for ii in range(len(state_list)):
 with open('converted.real', 'a') as neptune:
     neptune.write('.end')
 
-with open('/home/aayush/Desktop/Mini-project/work/file_handler/quasm/qasm2circ-v1.4/converted_image.real', 'a') as neptune:
+with open('/home/aayush/Desktop/RC Project/file_handler-master/quasm/qasm2circ-v1.4/converted_image.real', 'a') as neptune:
     neptune.write('.end')
 
 print(state_list)

@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="R Skeletons" level="project" />
     <orderEntry type="library" name="R User Skeletons" level="project" />
+    <orderEntry type="module" module-name="Python_Revision" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />
