@@ -179,3 +179,5 @@ with open('/home/aayush/Desktop/RC Project/file_handler-master/quasm/qasm2circ-v
     neptune.write('.end')
 
 print(state_list)
+print(captain_gamma)
+
